@@ -24,5 +24,5 @@ model.fit(x, y)
 predict = model.predict(np.array(2020).reshape(1, 1))[0][0]
 print (round(predict*100,2))
 
-#print(model.coef_, model.intercept_)
+print(model.coef_, model.intercept_)
 input()
