@@ -69,7 +69,6 @@ for url in urls:
     conn.commit()
     #print(url, title, price, w,h,length,all_am,h_am)
 
-
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
