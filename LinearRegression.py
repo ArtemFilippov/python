@@ -18,7 +18,6 @@ model.fit(x, y)
 
 #plt.scatter(x, y,  color='orange')
 #x = np.append(x, [2020]).reshape(len(data_group.index)+1, 1)
-
 #plt.plot(x, model.predict(x), color='blue', linewidth=3)
 #plt.show()
 
